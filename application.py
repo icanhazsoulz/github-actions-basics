@@ -7,7 +7,7 @@ app = Flask(__name__)
 #     return render_template('index.html')
 
 def say_hello(username = "World"):
-    return "<h2>Hello, %s!!</h2>" % username
+    return "<h2 style=\"color: green;\">Hello, %s!!</h2>" % username
 
 header_text = '''
     <html>\n<head> <title>EB Flask Test</title> </head>\n<body>'''
